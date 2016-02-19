@@ -1,5 +1,5 @@
 This document contains some guidelines that you will need to follow.
-(1) Use proper indentation. Makes code readable and easy for other to understand and make changes (if any). Use and respect the <tag> heirarchey.
+(1) Use proper indentation. Makes code readable and easy for other to understand and make changes (if any). Use and respect the <tag> heirarchy.
 (2) All Javascipt files (.js) of a perticular webpage (ex. contact.html) goes into ./scripts-contact. 
 (3) All stylesheets (.css) of a perticular webpage (ex. contact.html) go into ./styles-contact.
 (4) Scripts (.js) and stylesheets (.css) that are common to all webpages (bootstrap) go into ./scripts-common and ./styles-common respectively.
