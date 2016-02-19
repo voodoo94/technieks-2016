@@ -1,0 +1,109 @@
+.contact-text {
+	margin-left: 15px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.contact-text-no-hover {
+	margin-left: 15px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.contact-text:hover {
+	font-size: 1.3em;
+}
+.icon-table {
+	float:right;
+	margin-right:10px;
+}
+
+#contact-text {
+	color:#fff;
+}
+
+.collapse {
+	border: none;
+}
+
+.social-icons > li {
+	padding: 0px;
+}
+
+.social-icons-buttons > li {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.navigation-bar-footer a img{
+	width:28px;
+	height:28px;	
+}
+
+#college-logo {
+	width:40px;
+	height: 40px;
+	background: none;
+	padding-top: 8px;
+	border:0px;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:5px !important; padding-bottom:0 !important;
+    height: 50px;
+}
+
+
+/*
+.navbar {
+	min-height:30px !important;
+} 
+*/
+
+.navbar-fixed-bottom {
+	height:50px;
+}
+
+.social-buttons {
+	background:none; 
+	border:0px; 
+	padding-bottom:5px;
+}
+
+/*
+.social-buttons-nie {
+	background: none;
+	border: 0px;
+	padding-right:15px;
+	padding-top: 8px;
+}
+*/
+
+.footer {
+	padding-top: none;
+}
+.social-icons
+{
+	margin: 0% 42%;
+	padding-top: 7px;
+	width: 20%;
+}
+.social-icons a{
+	padding: 6px;	
+	padding-top:3px;
+	float:right;
+}
+.social-icons a img{
+	width:100%;	
+}
+
+#social_icons {
+	padding-right: 5px;
+	padding-left: 5px;
+
+}
+
+
+

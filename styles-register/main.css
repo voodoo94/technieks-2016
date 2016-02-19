@@ -1,0 +1,42 @@
+body { padding-bottom: 70px; }
+
+.background-image
+{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: url(../images/bg.jpg) no-repeat;
+ 	background-size: 100% 125%;
+ 	-webkit-filter:blur(1.5px);
+ 	-moz-filter:blur(1.5px);
+ 	-ms-filter:blur(1.5px);
+ 	-oz-filter:blur(1.5px);
+}
+
+#auditions-text {
+	color: #784b3e;
+}
+
+#marathon-text {
+	color: #784b3e;
+}
+
+#main-container {
+	margin-top:50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#technieks-logo-main {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#date-text {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}

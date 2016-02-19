@@ -1,0 +1,131 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Contact Us | technieks 16</title>
+		<meta http-equiv="Content-Type" content="text/html charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+		<base href=".">
+		<link rel="shortcut icon" href="nie_logo_favicon.png">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<!--include bootstrap-->
+		<link rel="stylesheet" href="./styles-common/bootstrap.min.css" type="text/css">
+		<script src="./scripts-common/ui-bootstrap-tpls.min.js" />
+		<script src="./scripts-common/bootstrap.min.js" />
+		<!--include Angular JS-->
+		<script src="./scripts/angular.min.js"></script>
+    <script src="./scripts/angular-ui-router.min.js"></script>
+		<script src="./scripts/angular-animate.js"></script>
+		<script src="./scripts/angular-sanitize.js"></script>   
+    <script src="./scripts/angularytics.min.js"></script>
+    <script src="./scripts/angular-localForage.min.js"></script>
+
+    	<!--inlcude stylesheets-->
+		<link rel="stylesheet" href="./styles-contact/header.css" type="text/css">
+		<link rel="stylesheet" href="./styles-contact/footer.css" type="text/css">
+		<link rel="stylesheet" href="./styles-contact/main.css" type="text/css">
+
+		<link rel="stylesheet" href="./styles-common/transparent.css" type="text/css"/>
+		<style type="text/css">
+			#social_icons:link {
+				text-decoration:none;
+				color:#D82D46;
+			}
+	
+			#social_icons:hover {
+				text-decoration:none;
+				color:#DED843;
+			}
+
+			#social_icons:visited {
+				text-decoration:none;
+				color:#D82D46;
+			}
+	
+			#social_icons:active {
+				text-decoration:none;
+				color:#DED843;
+			}
+		</style>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+      });
+    </script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+    		$('input.typeahead').typeahead({
+        		name: 'typeahead',
+        		remote:'search.php?key=%QUERY',
+        		limit : 10
+    		});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="background-image">
+		</div>
+		<div class="page-container">
+			<div class="navigation-bar-header">
+				<nav class="navbar navbar-default navbar-fixed-top">
+  					<div class="container-fluid" style="background-color:black">
+    				<!-- Brand and toggle get grouped for better mobile display -->
+    					<div class="navbar-header">
+      						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        						<span class="sr-only">Toggle navigation</span>
+        						<span class="icon-bar"></span>
+        						<span class="icon-bar"></span>
+        						<span class="icon-bar"></span>
+      						</button>
+      						<a class="navbar-brand" id="brand-heading" href="./index.html">technieks</a>
+    					</div>
+    					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      						<ul class="nav navbar-nav navbar-left">
+        						<li><a id="header-text" href="./index.html"><b>Home</b></a></li>
+        						<li><a id="header-text" href="./events.html"><b>Events</b></a></li>
+        						<li><a id="header-text" href="./gallery.html"><b>Gallery</b></a></li>
+      						</ul>
+      						<ul class="nav navbar-nav navbar-right">
+      							<form role="search" class="form-group navbar-form navbar-right">
+      								<div class="input-group">
+      									<input type="text" placeholder="Search" name="typeahead" class="typeahead tt-query" autocomplete="off" spellcheck="false">
+      								</div>
+      							</form>
+      							<li><a id="header-text" href="./sponsors.html"><b>Sponsors</b></a></li>
+      							<li class="header-text"><a id="header-text" href="./register.html">Register</a></li>
+      						</ul>
+      					</div>
+    				</div><!-- /.navbar-collapse -->
+				</nav>
+      </div>
+      <div class="navigation-bar-footer" id="footer-content">
+				<nav class="navbar navbar-default navbar-fixed-bottom">
+  					<div class="container-fluid" style="color:white; background-color:black;">
+    					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    						<div class="nav navbar-nav navbar-left">
+    							<a class="social-buttons-nie" href="http://www.nie.ac.in/" data-toggle="tooltip" data-placement="auto" title="NIE" target="_blank"><img id="college-logo" src="./images/nie_logo.png"  /></a>
+    							<ul class="nav navbar-nav navbar-right">
+    								<li class="active contact-text-no-hover"><a id="contact-text" href="./contact.html"><b>Contact us</b><span class="sr-only">(current)</span></a></li>
+    								<li class="contact-text"><a id="contact-text" href="./pre/index.php"><b>pre-technieks</b></a></li>
+    							</ul>
+    						</div>
+      						<div class="nav navbar-nav navbar-right social-icons">
+      							<table height="inherit" width="150" class="icon-table">
+                      <tr>
+                        <td height="35" width="35"><a id="social_icons" class="facebook_transp" data-toggle="tooltip" data-placement="auto" title="Facebook" href="https://www.facebook.com/techNIEks/" target="_blank">Facebook<span></span></a></td>
+                        <td height="35" width="35"><a id="social_icons" class="twitter_transp" data-toggle="tooltip" data-placement="auto" title="Twitter" href="https://twitter.com/technieks15" target="_blank">Twitter<span></span></a></td>
+                        <td height="35" width="35"><a id="social_icons" class="instagram_transp" data-toggle="tooltip" data-placement="auto" title="Instagram" href="https://www.instagram.com/technieks16/?ref=badge" target="_blank" >Instagram<span></span></a></td>
+                        <td height="35" width="35"><a id="social_icons" class="youtube_transp" data-toggle="tooltip" data-placement="auto" title="Youtube" href="https://www.youtube.com/channel/UC0Ky30GAIfdtGccczVNUIqA" target="_blank">Youtube<span></span></a></td>
+                      </tr>
+                    </table>
+      						</div>
+      					</div>
+    				</div>
+				</nav>
+            </div>
+        </div>
+	</body>
+</html>

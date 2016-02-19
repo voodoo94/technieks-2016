@@ -1,0 +1,44 @@
+body { padding-bottom: 70px; }
+
+.background-image
+{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: url(../images/bg.jpg) no-repeat;
+    background-size: 100% 125%;
+ 	-webkit-filter:blur(1.5px);
+ 	-moz-filter:blur(1.5px);
+ 	-ms-filter:blur(1.5px);
+ 	-oz-filter:blur(1.5px)
+}
+
+#main-container {
+	margin-top:100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#technieks-logo-main {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+		
+}
+#date-text {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+
+@media only screen and (max-width:738px) {
+#date-text {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}}

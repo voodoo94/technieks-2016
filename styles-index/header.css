@@ -1,0 +1,56 @@
+#header-text {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#header-text-no-hover {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#header-text:hover {
+  font-size: 1.3em;
+}
+
+#brand-heading {  
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.input-group {
+  position: relative;
+  padding-right:10px;
+  float: right;
+  overflow: hidden;
+  padding-bottom: 0px;
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  transition: width 0.3s;
+  -webkit-backface-visibility: hidden;
+}
+
+.form-control {
+  position: absolute;
+  outline: none;
+  border: none;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  z-index: 10;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.navbar-nav li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
