@@ -16,7 +16,7 @@ body { padding-bottom: 70px; }
 }
 
 .main-container {
-	margin-top:100px;
+	margin-top:60px;
 	margin-bottom: 80px;
 	padding-right: 20px;
 	margin-left: auto;
@@ -65,4 +65,9 @@ body { padding-bottom: 70px; }
 .next {
     float:right;
     text-align:right;
+}
+
+#gallery-heading {
+	padding-top:20px;
+	padding-bottom: 20px;
 }

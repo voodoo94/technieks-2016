@@ -1,4 +1,9 @@
-body { padding-bottom: 70px; }
+body { 
+	padding-bottom: 70px; 
+	/*position: fixed;
+	overflow-y: scroll;
+	width: 100%;  */
+}
 
 .background-image
 {
@@ -27,12 +32,12 @@ body { padding-bottom: 70px; }
 	margin-right: auto;
 		
 }
+
 #date-text {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: white;
 }
-
 
 
 @media only screen and (max-width:738px) {
