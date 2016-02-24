@@ -1,26 +1,51 @@
 body { padding-bottom: 70px; }
 
-.background-image
-{
+.morning { 
 	position: fixed;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	top: 0;
-	background: url(../images/bg.jpg) no-repeat;
- 	background-size: 100% 125%;
- 	-webkit-filter:blur(1.5px);
- 	-moz-filter:blur(1.5px);
- 	-ms-filter:blur(1.5px);
- 	-oz-filter:blur(1.5px);
+	background: url(../images/background.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+
+.sunset { 
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: url(../images/evening.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+
+.night { 
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: url(../images/night.jpg) no-repeat; 
+	background-size: 100% 100%;
+}
+
+.roadtrip { 
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: url(../images/road_trip.jpg) no-repeat; 
+	background-size: 100% 100%;
 }
 
 #auditions-text {
-	color: #784b3e;
+	color: #000;
 }
 
 #marathon-text {
-	color: #784b3e;
+	color: #000;
 }
 
 #main-container {
