@@ -26,9 +26,11 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     	<link rel="stylesheet" href="./styles-common/bootstrap-theme.min.css" />
 		<link rel="stylesheet" href="./styles-common/bootstrap.min.css" type="text/css" />
+		
 		<script src="./scripts-common/ui-bootstrap-tpls.min.js" type="text/javascript"></script>
 		<script src="./scripts-common/bootstrap.min.js" type="text/javascript"></script>
 		
+		<script src="./scripts-common/wallpaper.js" type="text/javascript"></script>
 	<!--script for search-->		
 		<script src="./typeahead.min.js"></script>
 	
@@ -71,35 +73,15 @@
 			}
 		</style>
 
+		
+
 		<script type="text/javascript">
 			$('body,html').css("overflow","hidden");
 		</script>
 		
-
     <!-- end of socila icons-->
 	
     	<script type="text/javascript">
-	
-	  		//actions that should be performed when buttons are clicked-->
-	  
-	  		//Technieks link-->
-	  		/*
-	  		$(document).ready(function(){
-	  		$("#brand-heading").click(function(ev){
-	  		ev.preventDefault();
-	  		$("#main-page").replaceWith("<div id='main-page'><div class='background-image animated slideInDown'></div></div>");
-	  		});
-	  		});*/
-	  
-	  		//home link-->
-	  		/*
-	  		$(document).ready(function(){
-	  		$("#header-text").click(function(ev){
-	  		ev.preventDefault();
-	  		$("#main-page").replaceWith("<div id='main-page'><div class='background-image animated slideInDown'></div><div class='col-md-12 text-center' id='main-container'><div class='poster-image'><img id='technieks-logo-main' class='img-responsive' src='./images/technieks_logo.png' /></div><h3 id='date-text'>On 18<sup>th</sup>, 19<sup>th</sup> and 20<sup>th</sup> of March, 2016.</h1></div></div>");
-	  		});
-	  		});*/
-	  
 	  		$(document).ready(function(){
     			$('[data-toggle="tooltip"]').tooltip();   
 			});
@@ -113,75 +95,9 @@
 			});
 	  		//<!--end of actions-->
   		</script>
-  		<!--
-		<style>
-			
-			.tt-dropdown-menu {
-			background-color: #FFFFFF;
-			border: 1px solid rgba(0, 0, 0, 0.2);
-			border-radius: 8px;
-			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-			margin-top: 12px;
-			padding: 8px 0;
-			width: 422px;
-		}
-
-		.tt-suggestion {
-			font-size: 24px;
-			line-height: 24px;
-			padding: 3px 20px;
-		}
-
-		.tt-suggestion.tt-is-under-cursor {
-			background-color: #0097CF;
-			color: #FFFFFF;
-		}
-
-		.tt-suggestion p {
-			margin: 0;
-		}
-		
-		.new-image
-		{
-	-webkit-animation-duration: 3s;
-	-moz-animation-duration: 3s;
-		animation-duration: 3s;
-		position: fixed;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		top: 0;
-		background: url("1.jpg") no-repeat;
- 		background-size: 100% 125%;
- 	-webkit-filter:blur(1.5px);
- 	-moz-filter:blur(1.5px);
- 	-ms-filter:blur(1.5px);
-		}
-		#image img {
-       		display: block;
-    		max-width:100%;
-    		max-height:750px;
-    		width: auto;
-    		height: auto;
-    		z-index: -1;
-    		position: fixed;     
-		}
-
-		.bg {
-			position: fixed;
-			left: 0
-			bottom: 0;
-			top: 0;
-	/*background: url(../images/bg.jpg) no-repeat;*/
- 	
- 	-webkit-filter:blur(1.5px);
- 	-moz-filter:blur(1.5px);
- 	-ms-filter:blur(1.5px);
-		}
-		</style>-->
 	</head>
 	<body>
-	<div class="background-image">
+	<div class="background-image" id="background-image">
 	</div>
     <div class="page-container">  <!-- main container-->
 
@@ -199,14 +115,20 @@
         						<span class="icon-bar"></span>
         						<span class="icon-bar"></span>
       						</button>
-      						<a class="navbar-brand" id="brand-heading"  href="http://www.technieks.com">technieks</a>
+      						<div class="svg-wrapper">
+      							<svg height="1" width="320" xmlns="http://www.w3.org/2000/svg">
+      							<rect class="shape" height="60" width="320" />
+      							<div class="text">
+      								<a class="navbar-brand" id="brand-heading"  href="http://www.technieks.com">technieks</a>
+      							</div>
+      						</div>
        					</div><!--end of brand -->
 						
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 topMenu" >
       						<ul class="nav navbar-nav navbar-left">
         						<li class="active"><a id="header-text-no-hover" href="./index.html"><b>Home</b><span class="sr-only">(current)</span></a></li>
-        						<li><a id="header-text" href="./events.html"><b>Events</b></a></li>
-        						<li><a id="header-text" href="./gallery.html">gallery</a></li>
+        						<li><a id="header-text" class="effect-1" href="./events.html"><b>Events</b></a></li>
+        						<li><a id="header-text" class="effect-1" href="./gallery.html">gallery</a></li>
 
       						</ul>
 							
@@ -217,8 +139,8 @@
       									<input type="text" placeholder="Search" name="typeahead" class="typeahead tt-query" autocomplete="off" spellcheck="false">
       								</div>
       							</form>
-      							<li><a id="header-text" href="./sponsors.html"><b>Sponsors</b></a>
-      							<li><a id="header-text" href="./register.html"><b>Register</b></a></li>
+      							<li><a id="header-text" class="effect-1" href="./sponsors.html"><b>Sponsors</b></a>
+      							<li><a id="header-text" class="effect-1" href="./register.html"><b>Register</b></a></li>
                             </ul><!--search ends-->
 							
       					</div>

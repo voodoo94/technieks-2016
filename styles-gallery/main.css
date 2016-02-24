@@ -9,10 +9,11 @@ body { padding-bottom: 70px; }
 	top: 0;
 	background: url(../images/bg.jpg) no-repeat;
  	background-size: 100% 125%;
+ 	/*<
  	-webkit-filter:blur(1.5px);
  	-moz-filter:blur(1.5px);
  	-ms-filter:blur(1.5px);
- 	-oz-filter:blur(1.5px);
+ 	-oz-filter:blur(1.5px);*/
 }
 
 .main-container {

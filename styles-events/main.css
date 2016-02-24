@@ -16,9 +16,70 @@ body { padding-bottom: 70px; }
 }
 
 #main-container {
-	margin-top:100px;
+	margin-top:50px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 100px;
+}
+
+.ev-container {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.event-container {
+	margin-top: 80px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.eventbox {
+    background-color:#ffffff;
+	padding:10px;
+	margin-left:200px;
+	margin-right: 200px;
+    border: 1px solid #cfcfcf;
+    -moz-box-shadow: 2px 2px 4px 0px #cfcfcf;
+    -webkit-box-shadow: 2px 2px 4px 0px #cfcfcf;
+    -o-box-shadow: 2px 2px 4px 0px #cfcfcf;
+    box-shadow: 2px 2px 4px 0px #cfcfcf;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=134, Strength=4);
+}
+
+#image-event {
+	float:left;
+	overflow: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 20%;
+	width:auto;
+}
+
+#event-text {
+	float: center;
+	font-weight:bold;
+    font-size:1.2em;
+    margin-left: 30px;
+	padding:5px 0 5px 0;
+}
+
+#event-info {
+	float: center;
+	margin-left: 30px;
+
+}
+
+.event-register-area {
+	border-top:1px solid #dadada;
+	padding-top:5px;
+	padding-right: 20px;
+	overflow: auto;
+}
+
+#event-register {
+	float: right;
 }
 
 #technieks-logo-main {

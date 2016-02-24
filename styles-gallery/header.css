@@ -12,15 +12,11 @@
   text-transform: uppercase;
 }
 
-#header-text-no-hover {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #fff;
-  text-transform: uppercase;
-}
+
 
 #header-text:hover {
   font-size: 1.3em;
+  color: #ffff00;
 }
 
 #brand-heading {  
@@ -58,6 +54,7 @@
   font-family: inherit;
 }
 
+/*
 .navbar-nav li:hover {
   background-color: rgba(0, 0, 0, 0.5);
-}
+}*/

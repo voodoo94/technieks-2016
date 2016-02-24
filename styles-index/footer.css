@@ -13,10 +13,12 @@
 }
 
 
-.contact-text:hover
+#contact-text:hover
 {
-	font-size: 1.25em;
+	font-size: 1.3em;
+	color: #ffff00;
 }
+
 .icon-table {
 	float:right;
 	margin-right:10px;

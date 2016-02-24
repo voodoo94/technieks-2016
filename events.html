@@ -22,10 +22,10 @@
     	<script src="./scripts/angular-localForage.min.js"></script>
 
     	<!--inlcude stylesheets-->
-		<link rel="stylesheet" href="./styles-register/header.css" type="text/css">
-		<link rel="stylesheet" href="./styles-register/footer.css" type="text/css">
-		<link rel="stylesheet" href="./styles-register/main.css" type="text/css">
-
+		<link rel="stylesheet" href="./styles-events/header.css" type="text/css">
+		<link rel="stylesheet" href="./styles-events/footer.css" type="text/css">
+		<link rel="stylesheet" href="./styles-events/main.css" type="text/css">
+    <link rel="stylesheet" href="./styles-events/event.css" type="text/css">
 		<link rel="stylesheet" href="./styles-common/transparent.css" type="text/css"/>
 		<style type="text/css">
 			#social_icons:link {
@@ -71,7 +71,7 @@
 		<div class="page-container">
 			<div class="navigation-bar-header">
 				<nav class="navbar navbar-default navbar-fixed-top">
-  					<div class="container-fluid" style="background-color:black">
+  					<div class="container-fluid" style="background-color:black;">
     				<!-- Brand and toggle get grouped for better mobile display -->
     					<div class="navbar-header">
       						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -100,6 +100,206 @@
       					</div>
     				</div><!-- /.navbar-collapse -->
 				</nav>
+      </div>
+      <div class="col-md-12 main-container" id="main-container">
+        <div class="poster-image">
+          <img id="technieks-logo-main" height="150px" width="250px" src="./images/technieks_logo.png" />
+        </div>
+        <div id="main-heading">
+          <center><h1>Events:</h1></center>
+        </div>
+        <div class="event-container1" id="signature-events">
+          <center><h2>Signature Events:</h2></center>
+          <div class="ev-container">
+            <div class="eventbox">
+              <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+              <h3 id="event-text">Event Name1</h3>
+              <h4 id="event-info">Event info</h4>
+              <div class="event-register-area">
+                <div id="event-register">
+                  <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ev-container">
+          <div class="eventbox">
+            <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+            <h3 id="event-text">Event Name2</h3>
+            <h4 id="event-info">Event info</h4>
+            <div class="event-register-area">
+              <div id="event-register">
+                <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ev-container">
+          <div class="eventbox">
+            <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+            <h3 id="event-text">Event Name3</h3>
+            <h4 id="event-info">Event info</h4>
+            <div class="event-register-area">
+              <div id="event-register">
+                <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="event-container" id="day1-events">
+          <center><h2>Day 1 events:</h2></center>
+          <div class="ev-container">
+            <div class="eventbox">
+              <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+              <h3 id="event-text">Event Name1</h3>
+              <h4 id="event-info">Event info</h4>
+              <div class="event-register-area">
+                <div id="event-register">
+                  <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ev-container">
+            <div class="eventbox">
+              <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+              <h3 id="event-text">Event Name2</h3>
+              <h4 id="event-info">Event info</h4>
+              <div class="event-register-area">
+                <div id="event-register">
+                  <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ev-container">
+            <div class="eventbox">
+              <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+              <h3 id="event-text">Event Name3</h3>
+              <h4 id="event-info">Event info</h4>
+              <div class="event-register-area">
+                <div id="event-register">
+                  <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ev-container">
+            <div class="eventbox">
+              <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+              <h3 id="event-text">Event Name4</h3>
+              <h4 id="event-info">Event info</h4>
+              <div class="event-register-area">
+                <div id="event-register">
+                  <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="event-container" id="day2-events">
+          <center><h2>Day 2 events:</h2></center>
+          <div class="ev-container">
+            <div class="eventbox">
+              <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+              <h3 id="event-text">Event Name1</h3>
+              <h4 id="event-info">Event info</h4>
+              <div class="event-register-area">
+                <div id="event-register">
+                  <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ev-container">
+            <div class="eventbox">
+              <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+              <h3 id="event-text">Event Name2</h3>
+              <h4 id="event-info">Event info</h4>
+              <div class="event-register-area">
+                <div id="event-register">
+                  <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ev-container">
+            <div class="eventbox">
+              <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+              <h3 id="event-text">Event Name3</h3>
+              <h4 id="event-info">Event info</h4>
+              <div class="event-register-area">
+                <div id="event-register">
+                  <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ev-container">
+            <div class="eventbox">
+              <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+              <h3 id="event-text">Event Name4</h3>
+              <h4 id="event-info">Event info</h4>
+              <div class="event-register-area">
+                <div id="event-register">
+                  <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="event-container" id="day3-events">
+        <center><h2>Day 3 events:</h2></center>
+        <div class="ev-container">
+            <div class="eventbox">
+              <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+              <h3 id="event-text">Event Name1</h3>
+              <h4 id="event-info">Event info</h4>
+              <div class="event-register-area">
+                <div id="event-register">
+                  <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ev-container">
+            <div class="eventbox">
+              <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+              <h3 id="event-text">Event Name2</h3>
+              <h4 id="event-info">Event info</h4>
+              <div class="event-register-area">
+                <div id="event-register">
+                  <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ev-container">
+            <div class="eventbox">
+              <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+              <h3 id="event-text">Event Name3</h3>
+              <h4 id="event-info">Event info</h4>
+              <div class="event-register-area">
+                <div id="event-register">
+                  <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ev-container">
+            <div class="eventbox">
+              <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
+              <h3 id="event-text">Event Name4</h3>
+              <h4 id="event-info">Event info</h4>
+              <div class="event-register-area">
+                <div id="event-register">
+                  <a href="#" class="btn btn-primary btm-sm" role="button">More Info</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="navigation-bar-footer" id="footer-content">
 				<nav class="navbar navbar-default navbar-fixed-bottom">

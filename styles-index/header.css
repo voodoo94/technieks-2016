@@ -1,3 +1,38 @@
+
+.svg-wrapper {
+  position: relative;
+  top: 10%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 320px;  
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-family: 'Roboto Condensed';
+  font-size: 1.2em;
+  font-style:bold;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  top: 0px;
+  position: relative;
+}
+
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
+
+
 #header-text {
   font-size: 1.2em;
   font-weight: bold;
@@ -14,6 +49,7 @@
 
 #header-text:hover {
   font-size: 1.3em;
+  color:yellow;
 }
 
 #brand-heading {  
@@ -51,6 +87,7 @@
   font-family: inherit;
 }
 
+/*
 .navbar-nav li:hover {
   background-color: rgba(0, 0, 0, 0.5);
-}
+}*/

@@ -1,0 +1,21 @@
+
+
+.eventtitle {
+    font-weight:bold;
+    font-size:1.2em;
+	padding:5px 0 5px 0;
+}
+
+.eventtext {
+    
+}
+
+.eventprice {
+	border-top:1px solid #dadada;
+	padding-top:5px;
+}
+
+.pricetext {
+	font-weight:bold;
+	font-size:1.4em;
+}
