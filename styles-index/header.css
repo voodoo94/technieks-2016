@@ -1,5 +1,5 @@
 
-.svg-wrapper {
+/*.svg-wrapper {
   position: relative;
   top: 10%;
   transform: translateY(-50%);
@@ -31,7 +31,7 @@
   stroke-dashoffset: 0;
   stroke-dasharray: 760;
 }
-
+*/
 
 #header-text {
   font-size: 1.2em;
