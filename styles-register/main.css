@@ -31,7 +31,7 @@ body { padding-bottom: 70px; }
 }
 
 .roadtrip { 
-	position: relative;
+	position: fixed;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -58,10 +58,4 @@ body { padding-bottom: 70px; }
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-#date-text {
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #fff;
 }

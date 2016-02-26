@@ -1,7 +1,7 @@
 <!DOCTYPE>
 <html>
 	<head>
-		<title>Events | technieks 16</title>
+		<title>Events | techNIEks 16</title>
 		<meta http-equiv="Content-Type" content="text/html charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta charset="utf-8">
@@ -9,8 +9,12 @@
 		<link rel="shortcut icon" href="nie_logo_favicon.png">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Include font -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
 		<!--include bootstrap-->
 		<link rel="stylesheet" href="./styles-common/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
 		<script src="./scripts-common/ui-bootstrap-tpls.min.js" ></script>
 		<script src="./scripts-common/bootstrap.min.js" ></script>
 
@@ -23,7 +27,8 @@
     	<script src="./scripts/angularytics.min.js"></script>
     	<script src="./scripts/angular-localForage.min.js"></script>
 
-    	<!--inlcude stylesheets-->
+    <!--inlcude stylesheets-->
+    <link rel="stylesheet" href="./styles-common/font_style.css" type="text/css">
 		<link rel="stylesheet" href="./styles-events/header.css" type="text/css">
 		<link rel="stylesheet" href="./styles-events/footer.css" type="text/css">
 		<link rel="stylesheet" href="./styles-events/main.css" type="text/css">
@@ -72,9 +77,8 @@
 		</div>
 		<div class="page-container">
 			<div class="navigation-bar-header">
-				<nav class="navbar navbar-default navbar-fixed-top">
-  					<div class="container-fluid" style="background-color:black;">
-    				<!-- Brand and toggle get grouped for better mobile display -->
+				<nav class="navbar navbar-default navbar-fixed-top stroke">
+  					<div class="container-fluid">
     					<div class="navbar-header">
       						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         						<span class="sr-only">Toggle navigation</span>
@@ -84,11 +88,11 @@
       						</button>
       						<a class="navbar-brand" id="brand-heading" href="./index.html">technieks</a>
     					</div>
-    					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 topMenu">
       						<ul class="nav navbar-nav navbar-left">
-        						<li><a id="header-text" href="./index.html"><b>Home</b></a></li>
-                    <li class="active"><a id="header-text-no-hover" href="./events.html"><b>Events</b></a></li>
-        						<li><a id="header-text" href="./gallery.html"><b>Gallery</b></a></li>
+        						<li><a id="header-text" class="header-text" href="./index.html"><b>Home</b></a></li>
+                    <li class="active"><a id="header-text-no-hover" class="header-text" href="./events.html"><b>Events</b></a></li>
+        						<li><a id="header-text" class="header-text" href="./gallery.html"><b>Gallery</b></a></li>
       						</ul>
       						<ul class="nav navbar-nav navbar-right">
       							<form role="search" class="form-group navbar-form navbar-right">
@@ -96,8 +100,8 @@
       									<input type="text" placeholder="Search" name="typeahead" class="typeahead tt-query" autocomplete="off" spellcheck="false">
       								</div>
       							</form>
-                    <li><a id="header-text" href="./sponsors.html"><b>Sponsors</b></a></li>
-      							<li><a id="header-text" href="./register.html"><b>Register</b><span class="sr-only">(current)</span></a></li>
+                    <li><a id="header-text" class="header-text" href="./sponsors.html"><b>Sponsors</b></a></li>
+      							<li><a id="header-text" class="header-text" href="./register.html"><b>Register</b><span class="sr-only">(current)</span></a></li>
       						</ul>
       					</div>
     				</div><!-- /.navbar-collapse -->
@@ -105,13 +109,13 @@
       </div>
       <div class="col-md-12 main-container" id="main-container">
         <div class="poster-image">
-          <img id="technieks-logo-main" height="150px" width="250px" src="./images/technieks_logo.png" />
+          <img id="technieks-logo-main" height="30%" width="auto" src="./images/technieks_logo.png" />
         </div>
         <div id="main-heading">
-          <center><h1>Events:</h1></center>
+          <center><h2 class="font-text" style="text-transform: uppercase;"><b>Events:</b></h2></center>
         </div>
         <div class="event-container1" id="signature-events">
-          <center><h2>Signature Events:</h2></center>
+          <center><h3 style="text-transform: uppercase;" class="font-text">Signature Events:</h3></center>
           <div class="ev-container">
             <div class="eventbox">
               <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
@@ -150,7 +154,7 @@
           </div>
         </div>
         <div class="event-container" id="day1-events">
-          <center><h2>Day 1 events:</h2></center>
+          <center><h3 style="text-transform: uppercase;" class="font-text">Day 1 events:</h3></center>
           <div class="ev-container">
             <div class="eventbox">
               <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
@@ -201,7 +205,7 @@
           </div>
         </div>
         <div class="event-container" id="day2-events">
-          <center><h2>Day 2 events:</h2></center>
+          <center><h3 style="text-transform: uppercase;" class="font-text">Day 2 events:</h3></center>
           <div class="ev-container">
             <div class="eventbox">
               <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
@@ -252,7 +256,7 @@
           </div>
         </div>
         <div class="event-container" id="day3-events">
-        <center><h2>Day 3 events:</h2></center>
+        <center><h3 style="text-transform: uppercase;" class="font-text">Day 3 events:</h3></center>
         <div class="ev-container">
             <div class="eventbox">
               <img id="image-event" src="http://lorempixel.com/460/250/" class="img-responsive img-circle">
@@ -304,7 +308,7 @@
         </div>
       </div>
       <div class="navigation-bar-footer" id="footer-content">
-				<nav class="navbar navbar-default navbar-fixed-bottom">
+				<nav class="navbar navbar-default navbar-fixed-bottom stroke">
   					<div class="container-fluid" style="color:white; background-color:black;">
     					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     						<div class="nav navbar-nav navbar-left">
