@@ -104,214 +104,214 @@ body {
                 	<li>
                     	<ul id="deparmentScore">
                     		<li class="strong">CSE</li>
-                        	<li id="00">20</li>
+                        	<li id="00">00</li>
                         	<li id="10">10</li>
-                        	<li id="20">30</li>
-                        	<li id="30">10</li>
+                        	<li id="20">00</li>
+                        	<li id="30">00</li>
                         	<li id="40">00</li>
                         	<li id="50">00</li>
-                        	<li id="60">10</li>
-                        	<li id="70">10</li>
-                        	<li id="80">10</li>
+                        	<li id="60">00</li>
+                        	<li id="70">00</li>
+                        	<li id="80">00</li>
                         	<li id="90">00</li>
                         	<li id="100">30</li>
-                        	<li id="110">30</li>
+                        	<li id="110">00</li>
                         	<li id="120">10</li>
                         	<li id="130">00</li>
                             <!--
                         	<li id="140">00</li>
                         	<li id="150">00</li>
                             -->
-                        	<li class="total" id="0t">170</li>
+                        	<li class="total" id="0t">50</li>
                         </ul>
                     </li>
 
                     <li>
                     	<ul id="deparmentScore">
                     		<li class="strong">ISE</li>
-                            <li id="01">20</li>
+                            <li id="01">00</li>
                         	<li id="11">30</li>
-                        	<li id="21">40</li>
-                        	<li id="31">10</li>
+                        	<li id="21">00</li>
+                        	<li id="31">00</li>
                         	<li id="41">00</li>
                         	<li id="51">00</li>
-                        	<li id="61">20</li>
-                        	<li id="71">10</li>
-                        	<li id="81">10</li>
-                        	<li id="91">10</li>
+                        	<li id="61">00</li>
+                        	<li id="71">00</li>
+                        	<li id="81">00</li>
+                        	<li id="91">00</li>
                         	<li id="101">40</li>
-                        	<li id="111">20</li>
+                        	<li id="111">00</li>
                         	<li id="121">20</li>
                         	<li id="131">00</li>
                             <!--
                         	<li id="141">00</li>
                         	<li id="151">00</li>
                             -->
-                        	<li class="total" id="1t">230</li>
+                        	<li class="total" id="1t">90</li>
                         </ul>
                     </li>
 
                     <li>
                     	<ul id="deparmentScore">
 						<li class="strong">ECE</li>
-                    		<li id="02">40</li>
+                    		<li id="02">00</li>
                         	<li id="12">10</li>
-                        	<li id="22">10</li>
-                        	<li id="32">30</li>
+                        	<li id="22">00</li>
+                        	<li id="32">00</li>
                         	<li id="42">00</li>
                         	<li id="52">00</li>
-                        	<li id="62">10</li>
-                        	<li id="72">10</li>
-                        	<li id="82">10</li>
-                        	<li id="92">10</li>
+                        	<li id="62">00</li>
+                        	<li id="72">00</li>
+                        	<li id="82">00</li>
+                        	<li id="92">00</li>
                         	<li id="102">30</li>
-                        	<li id="112">20</li>
+                        	<li id="112">00</li>
                         	<li id="122">30</li>
                         	<li id="132">00</li>
                             <!--
                         	<li id="142">00</li>
                         	<li id="152">00</li>
                             -->
-							<li class="total" id="2t">210</li>
+							<li class="total" id="2t">70</li>
                         </ul>
                     </li>
 
                     <li>
                     	<ul id="deparmentScore">
                     		<li class="strong">MECH</li>
-                        	<li id="03">20</li>
+                        	<li id="03">00</li>
                         	<li id="13">40</li>
-                        	<li id="23">30</li>
-                        	<li id="33">20</li>
+                        	<li id="23">00</li>
+                        	<li id="33">00</li>
                         	<li id="43">00</li>
                         	<li id="53">00</li>
-                        	<li id="63">30</li>
-                        	<li id="73">10</li>
-                        	<li id="83">20</li>
-                        	<li id="93">20</li>
+                        	<li id="63">00</li>
+                        	<li id="73">00</li>
+                        	<li id="83">00</li>
+                        	<li id="93">00</li>
                         	<li id="103">20</li>
-                        	<li id="113">40</li>
+                        	<li id="113">00</li>
                         	<li id="123">40</li>
                         	<li id="133">00</li>
                             <!--
                         	<li id="143">00</li>
                         	<li id="153">00</li>
                             -->
-                        	<li class="total" id="3t">290</li>
+                        	<li class="total" id="3t">100</li>
                         </ul>
                     </li>
 
                     <li>
                     	<ul id="deparmentScore">
                     		<li class="strong">IPE</li>
-                        	<li id="04">30</li>
+                        	<li id="04">00</li>
                         	<li id="14">20</li>
-                        	<li id="24">20</li>
-                        	<li id="34">10</li>
+                        	<li id="24">00</li>
+                        	<li id="34">00</li>
                         	<li id="44">00</li>
                         	<li id="54">00</li>
-                        	<li id="64">10</li>
-                        	<li id="74">10</li>
-                        	<li id="84">10</li>
-                        	<li id="94">10</li>
+                        	<li id="64">00</li>
+                        	<li id="74">00</li>
+                        	<li id="84">00</li>
+                        	<li id="94">00</li>
                         	<li id="104">20</li>
-                        	<li id="114">40</li>
+                        	<li id="114">00</li>
                         	<li id="124">20</li>
                         	<li id="134">00</li>
                             <!--
                         	<li id="144">00</li>
                         	<li id="154">00</li>
                             -->
-                        	<li class="total" id="4t">200</li>
+                        	<li class="total" id="4t">60</li>
                         </ul>
                     </li>
 
                     <li>
                     	<ul id="deparmentScore">
                     		<li class="strong">CIVIL</li>
-                        	<li id="05">20</li>
+                        	<li id="05">00</li>
                         	<li id="15">30</li>
-                        	<li id="25">10</li>
-                        	<li id="35">10</li>
+                        	<li id="25">00</li>
+                        	<li id="35">00</li>
                         	<li id="45">00</li>
                         	<li id="55">00</li>
-                        	<li id="65">10</li>
-                        	<li id="75">30</li>
-                        	<li id="85">30</li>
-                        	<li id="95">10</li>
+                        	<li id="65">00</li>
+                        	<li id="75">00</li>
+                        	<li id="85">00</li>
+                        	<li id="95">00</li>
                         	<li id="105">20</li>
-                        	<li id="115">20</li>
+                        	<li id="115">00</li>
                         	<li id="125">30</li>
                         	<li id="135">00</li>
                             <!--
                         	<li id="145">00</li>
                         	<li id="155">00</li>
                             -->
-                        	<li class="total" id="5t">220</li>
+                        	<li class="total" id="5t">80</li>
                         </ul>
                     </li>
 
                     <li>
                     	<ul id="deparmentScore">
                     		<li class="strong">EEE</li>
-                        	<li id="06">40</li>
+                        	<li id="06">00</li>
                         	<li id="16">40</li>
-                        	<li id="26">40</li>
-                        	<li id="36">10</li>
+                        	<li id="26">00</li>
+                        	<li id="36">00</li>
                         	<li id="46">00</li>
                         	<li id="56">00</li>
-                        	<li id="66">10</li>
-                        	<li id="76">20</li>
-                        	<li id="86">10</li>
-                        	<li id="96">30</li>
+                        	<li id="66">00</li>
+                        	<li id="76">00</li>
+                        	<li id="86">00</li>
+                        	<li id="96">00</li>
                         	<li id="106">40</li>
-                        	<li id="116">20</li>
+                        	<li id="116">00</li>
                         	<li id="126">40</li>
                         	<li id="136">00</li>
                             <!--
                         	<li id="146">00</li>
                         	<li id="156">00</li>
                             -->
-                        	<li class="total" id="6t">300</li>
+                        	<li class="total" id="6t">120</li>
                         </ul>
                     </li>
 
                     <li>
                     	<ul id="deparmentScore">
                     		<li class="strong">MCA</li>
-                        	<li id="07">20</li>
+                        	<li id="07">00</li>
                         	<li id="17">00</li>
                         	<li id="27">00</li>
                         	<li id="37">00</li>
                         	<li id="47">00</li>
                         	<li id="57">00</li>
                         	<li id="67">00</li>
-                        	<li id="77">10</li>
+                        	<li id="77">00</li>
                         	<li id="87">00</li>
-                        	<li id="97">10</li>
+                        	<li id="97">00</li>
                         	<li id="107">20</li>
-                        	<li id="117">10</li>
+                        	<li id="117">00</li>
                         	<li id="127">20</li>
                         	<li id="137">00</li>
                             <!--
                         	<li id="147">00</li>
                         	<li id="157">00</li>
                             -->
-                        	<li class="total" id="7t">90</li>
+                        	<li class="total" id="7t">40</li>
                         </ul>
                     </li>
 
                     <li>
                     	<ul id="deparmentScore">
                     		<li class="strong">MTECH</li>
-                        	<li id="08">10</li>
+                        	<li id="08">00</li>
                         	<li id="18">00</li>
-                        	<li id="28">10</li>
+                        	<li id="28">00</li>
                         	<li id="38">00</li>
                         	<li id="48">00</li>
                         	<li id="58">00</li>
                         	<li id="68">00</li>
-                        	<li id="78">10</li>
+                        	<li id="78">00</li>
                         	<li id="88">00</li>
                         	<li id="98">00</li>
                         	<li id="108">00</li>
@@ -322,7 +322,7 @@ body {
                         	<li id="148">00</li>
                         	<li id="158">00</li>
                             -->
-                        	<li class="total" id="8t">30</li>
+                        	<li class="total" id="8t">00</li>
                         </ul>
                     </li>
 
