@@ -10,7 +10,7 @@ $(document).ready(function() {
     var i;
     for (i = 0; i < list.length; i++) {
       list[i].style.color = "#FFF";
-    }
+    } 
   } else if (n > 16 && n <= 20) {
     document.getElementById("background-image").className = "sunset";
   } else {

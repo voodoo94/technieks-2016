@@ -4,6 +4,10 @@
   	font-family: 'Roboto', sans-serif;
 }
 
+a#contact-text-no-hover.contact-text {
+	background: #ffffff;
+}
+
 .icon-table {
 	float:right;
 	margin-right:10px;

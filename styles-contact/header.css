@@ -20,6 +20,10 @@ nav {
   font-family: 'Roboto', sans-serif;
 }
 
+a#header-text-no-hover.header-text {
+  background: #ffffff;
+}
+
 nav ul {
   list-style: none;
   text-align: center;
