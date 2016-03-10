@@ -64,6 +64,10 @@ body {
 	color: #000;
 }
 
+/*.news-feed {*/
+	/*font-family: 'Montserrat', sans-serif;*/
+/*}*/
+
 
 @media only screen and (max-width:738px) {
 #date-text {
