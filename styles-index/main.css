@@ -8,7 +8,7 @@ body {
 	right: 0;
 	bottom: 0;
 	top: 0;
-	background: url(../images/background.jpg) no-repeat;
+	background: url(../images/backimg.jpg) no-repeat;
 	background-size: 100% 100%; 
 }
 
@@ -18,7 +18,7 @@ body {
 	right: 0;
 	bottom: 0;
 	top: 0;
-	background: url(../images/evening.jpg) no-repeat;
+	background: url(../images/backimg.jpg) no-repeat;
 	background-size: 100% 100%; 
 }
 
@@ -28,7 +28,7 @@ body {
 	right: 0;
 	bottom: 0;
 	top: 0;
-	background: url(../images/night.jpg) no-repeat; 
+	background: url(../images/backimg.jpg) no-repeat; 
 	background-size: 100% 100%;
 }
 
@@ -38,7 +38,7 @@ body {
 	right: 0;
 	bottom: 0;
 	top: 0;
-	background: url(../images/road_trip.jpg) no-repeat; 
+	background: url(../images/backimg.jpg) no-repeat; 
 	background-size: 100% 100%;
 }
 
